@@ -42,5 +42,16 @@
     "password": "mj@123",
     "status": "active",
     "role": "user"
+  },
+  {
+    "id": 5,
+    "firstname": "Faraz",
+    "lastname": "Khan",
+    "email": "faraz@gmail.com",
+    "mobile": 9893256154,
+    "loginName": "Faraz",
+    "password": "kfaraz",
+    "status": "active",
+    "role": "user"
   }
 ]
