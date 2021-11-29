@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container-fluid {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #171717;
+}
+.active {
+  color: #3fa3e6;
+  border-bottom: 1px solid #fff;
+  transition: 0.3s ease-in-out;
+  background-color: #1b262c;
+}
+.heading {
+  text-align: center;
+  font-weight: bold;
+}
+.btn-primary {
+  background-color: #3282b8;
+  border: none;
+  outline: none;
+}
+.btn-secondary {
+  border: none;
+  outline: none;
+}
+.btn-primary:hover {
+  background-color: #333333;
+}
+.modal-body input {
+  padding: 5px 10px;
+}
+.login-btn {
+  padding: 0 15px;
+  outline: none;
+  border: none;
+  background-color: #3282b8;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.logout-btn {
+  padding: 0 10px;
+  outline: none;
+  border: none;
+  background-color: #f34832;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.login-btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.logout-btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.contact-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-row input {
+  outline: none;
+  padding-left: 5px;
+}
+.contact-row button {
+  background-color: #f34832;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 0px;
+}
+.contact-row button:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.contact-row i {
+  padding-left: 10px;
+}
+.contact-thead {
+  background-color: #3282b8;
+  color: #fff;
+}
+.fa-edit {
+  color: #27c521;
+  cursor: pointer;
+}
+.fa-trash {
+  color: #f34832;
+  cursor: pointer;
+}
+.fa-edit:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+.fa-trash:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+a {
+  color: #ededed;
+}
+a:hover {
+  color: #3facf5;
+}
+i {
+  color: #fff;
+  margin-right: 10px;
+}
